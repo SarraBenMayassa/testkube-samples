@@ -86,10 +86,6 @@ kind version
 helm version
 ```
 
-`docker version` must show both Client and Server information. If Docker
-reports that the engine is unavailable, open Docker Desktop and wait until it
-is running.
-
 ### Deploy the application
 
 From the repository root, allow the deployment script for the current PowerShell
@@ -196,6 +192,3 @@ Remove the local Kubernetes cluster completely:
 kind delete cluster --name testkube-samples
 ```
 
-If Docker Desktop reports that virtualization is not available, hardware
-virtualization must be enabled in BIOS/UEFI or by the IT administrator before
-Docker and kind can run.
